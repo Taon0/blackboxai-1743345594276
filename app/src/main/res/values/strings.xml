@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoClicker</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="exit">Exit</string>
+    <string name="accessibility_service_description">AutoClicker Service für automatische Klicks</string>
+    <string name="transparency">Transparenz</string>
+    <string name="enable_service">Bitte aktivieren Sie den Accessibility-Service</string>
+    <string name="enable_overlay">Bitte erlauben Sie Overlay-Berechtigungen</string>
+    <string name="word_list">Wörterliste (kommagetrennt)</string>
+    <string name="click_speed_ms">Klick-Geschwindigkeit (ms)</string>
+    <string name="default_words">play,proceed,exit</string>
+    <string name="save">Speichern</string>
+    <string name="click_speed">Klick-Geschwindigkeit: %d/s</string>
+</resources>
