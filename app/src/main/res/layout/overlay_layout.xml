@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlayContainer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/overlay_background"
+    android:padding="8dp">
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="@string/start"
+        android:backgroundTint="@color/green"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="@string/stop"
+        android:backgroundTint="@color/red"
+        android:textColor="@color/white"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="@string/exit"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/white"
+        android:layout_marginTop="4dp" />
+
+    <SeekBar
+        android:id="@+id/transparencySeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:max="100"
+        android:progress="80" />
+</LinearLayout>
